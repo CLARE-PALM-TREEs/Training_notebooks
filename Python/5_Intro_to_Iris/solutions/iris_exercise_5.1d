@@ -1,0 +1,9 @@
+
+# Iris course sample answer 5.1d
+# make a colour blockplot of airtemps[0]
+
+airtemps.coord('latitude').guess_bounds()
+airtemps.coord('longitude').guess_bounds()
+
+qplt.pcolormesh(airtemps[0, 10:15, 10:20])
+plt.show()
