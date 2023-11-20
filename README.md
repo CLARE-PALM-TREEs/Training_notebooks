@@ -7,6 +7,7 @@ The repository currently contains a set of directories containing jupyter notebo
 
 
 ***Instructions to set up for use on JASMIN***
+
 Jupyter notebooks can be run on JASMN in the JasPy environment.
 
 Step 1 navigate to the directory that you wish to store the notebook into and clone the github repository:
@@ -21,6 +22,7 @@ Step 3 open a notebook from the folders in the left-hand panel.
 Step 4 set the kernel to Python 3 + Jaspy by clicking on the kernel name in the top right corner and selecting from the dropdown list.
 
 NOTE: Make sure that the kernel is set to Python 3 + Jaspy whenever you open a notebook.
+
 
 ***Instructions to set up for use elsewhere***
 
@@ -49,6 +51,7 @@ Step 8 to is to run the course notebooks by navigating to the CLARE-PALM-TREEs/T
 `$ jupyter notebook`
 
 ***Instructions to reopen the notebooks for use elsewhere***
+
 Once you have created the testenv conda environment, to return to using the notebooks just follow these steps.
 
 Step 1 is to activate the conda environment using the command:
