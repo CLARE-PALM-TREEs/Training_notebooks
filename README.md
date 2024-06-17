@@ -39,7 +39,7 @@ Step 4 is to activate the base environment:
 `$ source ~/miniconda3/bin/activate`
 
 Step 5 is to create a conda enviroment using the command:
-`$ conda create -n testenv iris iris-sample-data jupyter nc-time-axis pandas scipy seaborn scikit-learn statsmodels`
+`$ conda create -n testenv jupyter pandas scipy seaborn scikit-learn statsmodels`
 
 Step 6 is to activate the conda environment using the command:
 `$ conda activate testenv`
